@@ -27,13 +27,19 @@ Stores > Configuration > HMH > Blind Box Product
 ## How-to
 
 ![config product as blind box](images/1-config-product-as-blind-box.png)
+Configure a product as a blind box and define its random product pool.
 
 ![add blind box product into basket](images/2-add-blind-box-product-into-basket.png)
+Add the blind box product to the basket from the storefront.
 
 ![product showed as blind box in cart](images/3-product-showed-as-blind-box-in-cart.png)
+The cart shows the blind box item instead of the hidden product.
 
 ![product 5showed as blind box in my orders](images/4-product-5showed-as-blind-box-in-my-orders.png)
+Customers see the blind box item in My Orders.
 
 ![product showed as blind box thoughout checkout](images/5-product-showed-as-blind-box-thoughout-checkout.png)
+The blind box item remains visible throughout checkout.
 
 ![real product is visiable in admin](images/6-real-product-is-visiable-in-admin.png)
+Admins see the real product in order details.

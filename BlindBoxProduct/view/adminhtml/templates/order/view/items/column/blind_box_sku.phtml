@@ -1,0 +1,12 @@
+<?php
+/**
+ * @var \Magento\Sales\Block\Adminhtml\Items\Column\DefaultColumn $block
+ */
+$_item = $block->getItem();
+$blindBoxSku = $_item ? (string)$_item->getData('blind_box_sku') : '';
+?>
+<?php if ($blindBoxSku !== ''): ?>
+    <?= $block->escapeHtml(__('Sku')) ?> : <?= $block->escapeHtml($blindBoxSku) ?>
+<?php else: ?>
+    <?= $block->escapeHtml(__('N/A')) ?>
+<?php endif; ?>
